@@ -1,8 +1,16 @@
 
+.App {
+  text-align: center;
+  margin: 90px 30px;
+  font-family: 'Poppins', sans-serif;
+}
 
 .App-header {
-text-align: center;
 margin: 30px 20px;
 }
 
 
+/*font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Sen', sans-serif;*/

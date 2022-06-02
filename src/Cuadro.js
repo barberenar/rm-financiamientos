@@ -61,7 +61,7 @@ export default function Cuadro(resultado) {
            <div className="col card-header">Bac</div>
            <div className="col card-header">Lafise (Bancentro)</div>
          </div>
-         <div className="row d-flex justify-content-center mt-2 ">
+         <div className="row d-flex justify-content-center mt-2">
            <div className="col">3</div>
            <div className="col">Total</div>
            <div className="col">{totalbanpro3.toFixed(2)}</div>
@@ -93,7 +93,7 @@ export default function Cuadro(resultado) {
            <div className="col">{bac6.toFixed(2)}</div>
            <div className="col">{lafise6.toFixed(2)}</div>
          </div>
-         <div className="row d-flex justify-content-center mt-2 ">
+         <div className="row d-flex justify-content-center mt-2">
            <div className="col">9</div>
            <div className="col">Total</div>
            <div className="col">{totalbanpro9.toFixed(2)}</div>
@@ -125,7 +125,7 @@ export default function Cuadro(resultado) {
            <div className="col">{bac12.toFixed(2)}</div>
            <div className="col">{lafise12.toFixed(2)}</div>
          </div>
-         <div className="row d-flex justify-content-center mt-2 ">
+         <div className="row d-flex justify-content-center mt-2">
            <div className="col">18</div>
            <div className="col">Total</div>
            <div className="col">{totalbanpro18.toFixed(2)}</div>

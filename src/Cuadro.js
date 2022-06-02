@@ -53,109 +53,108 @@ export default function Cuadro(resultado) {
      (
        <div className="Cuadro">
          <div className="row d-flex justify-content-center">
-           <div className="col card-header">Plazo</div>
-           <div className="col card-header">-</div>
-           <div className="col card-header">Banpro</div>
-
-           <div className="col card-header">Ficohsa</div>
-           <div className="col card-header">Bac</div>
-           <div className="col card-header">Lafise (Bancentro)</div>
+           <div className="col-2 card-header fw-bold">Plazo</div>
+           <div className="col-2 card-header">-</div>
+           <div className="col-2 card-header fw-bold">Banpro</div>
+           <div className="col-2 card-header fw-bold">Ficohsa</div>
+           <div className="col-2 card-header fw-bold">Bac</div>
+           <div className="col-2 card-header fw-bold">Lafise</div>
          </div>
          <div className="row d-flex justify-content-center mt-2">
-           <div className="col">3</div>
-           <div className="col">Total</div>
-           <div className="col">{totalbanpro3.toFixed(2)}</div>
-           <div className="col">{totalficohsa3.toFixed(2)}</div>
-           <div className="col">{totalbac3.toFixed(2)}</div>
-           <div className="col">{totallafise3.toFixed(2)}</div>
+           <div className="col-2 fw-bold">3</div>
+           <div className="col-2 fw-bold">Total</div>
+           <div className="col-2">{totalbanpro3.toFixed(2)}</div>
+           <div className="col-2">{totalficohsa3.toFixed(2)}</div>
+           <div className="col-2">{totalbac3.toFixed(2)}</div>
+           <div className="col-2">{totallafise3.toFixed(2)}</div>
          </div>
          <div className="row d-flex justify-content-center  mb-3 border-bottom">
-           <div className="col"></div>
-           <div className="col">Cuota</div>
-           <div className="col">{banpro3.toFixed(2)}</div>
-           <div className="col">{ficohsa3.toFixed(2)}</div>
-           <div className="col">{bac3.toFixed(2)}</div>
-           <div className="col">{lafise3.toFixed(2)}</div>
+           <div className="col-2"></div>
+           <div className="col-2 fw-bold">Cuota</div>
+           <div className="col-2">{banpro3.toFixed(2)}</div>
+           <div className="col-2">{ficohsa3.toFixed(2)}</div>
+           <div className="col-2">{bac3.toFixed(2)}</div>
+           <div className="col-2">{lafise3.toFixed(2)}</div>
          </div>
          <div className="row d-flex justify-content-center mt-2">
-           <div className="col">6</div>
-           <div className="col">Total</div>
-           <div className="col">{totalbanpro6.toFixed(2)}</div>
-           <div className="col">{totalficohsa6.toFixed(2)}</div>
-           <div className="col">{totalbac6.toFixed(2)}</div>
-           <div className="col">{totallafise6.toFixed(2)}</div>
+           <div className="col-2 fw-bold">6</div>
+           <div className="col-2 fw-bold">Total</div>
+           <div className="col-2">{totalbanpro6.toFixed(2)}</div>
+           <div className="col-2">{totalficohsa6.toFixed(2)}</div>
+           <div className="col-2">{totalbac6.toFixed(2)}</div>
+           <div className="col-2">{totallafise6.toFixed(2)}</div>
          </div>
          <div className="row d-flex justify-content-center  mb-3 border-bottom">
-           <div className="col"></div>
-           <div className="col">Cuota</div>
-           <div className="col">{banpro6.toFixed(2)}</div>
-           <div className="col">{ficohsa6.toFixed(2)}</div>
-           <div className="col">{bac6.toFixed(2)}</div>
-           <div className="col">{lafise6.toFixed(2)}</div>
+           <div className="col-2"></div>
+           <div className="col-2 fw-bold">Cuota</div>
+           <div className="col-2">{banpro6.toFixed(2)}</div>
+           <div className="col-2">{ficohsa6.toFixed(2)}</div>
+           <div className="col-2">{bac6.toFixed(2)}</div>
+           <div className="col-2">{lafise6.toFixed(2)}</div>
          </div>
          <div className="row d-flex justify-content-center mt-2">
-           <div className="col">9</div>
-           <div className="col">Total</div>
-           <div className="col">{totalbanpro9.toFixed(2)}</div>
-           <div className="col">{totalficohsa9.toFixed(2)}</div>
-           <div className="col">{totalbac9.toFixed(2)}</div>
-           <div className="col">{totallafise9.toFixed(2)}</div>
+           <div className="col-2 fw-bold">9</div>
+           <div className="col-2 fw-bold">Total</div>
+           <div className="col-2">{totalbanpro9.toFixed(2)}</div>
+           <div className="col-2">{totalficohsa9.toFixed(2)}</div>
+           <div className="col-2">{totalbac9.toFixed(2)}</div>
+           <div className="col-2">{totallafise9.toFixed(2)}</div>
          </div>
          <div className="row d-flex justify-content-center  mb-3 border-bottom">
-           <div className="col"></div>
-           <div className="col">Cuota</div>
-           <div className="col">{banpro9.toFixed(2)}</div>
-           <div className="col">{ficohsa9.toFixed(2)}</div>
-           <div className="col">{bac9.toFixed(2)}</div>
-           <div className="col">{lafise9.toFixed(2)}</div>
+           <div className="col-2"></div>
+           <div className="col-2 fw-bold">Cuota</div>
+           <div className="col-2">{banpro9.toFixed(2)}</div>
+           <div className="col-2">{ficohsa9.toFixed(2)}</div>
+           <div className="col-2">{bac9.toFixed(2)}</div>
+           <div className="col-2">{lafise9.toFixed(2)}</div>
          </div>
          <div className="row d-flex justify-content-center mt-2">
-           <div className="col">12</div>
-           <div className="col">Total</div>
-           <div className="col">{totalbanpro12.toFixed(2)}</div>
-           <div className="col">{totalficohsa12.toFixed(2)}</div>
-           <div className="col">{totalbac12.toFixed(2)}</div>
-           <div className="col">{totallafise12.toFixed(2)}</div>
+           <div className="col-2 fw-bold">12</div>
+           <div className="col-2 fw-bold">Total</div>
+           <div className="col-2">{totalbanpro12.toFixed(2)}</div>
+           <div className="col-2">{totalficohsa12.toFixed(2)}</div>
+           <div className="col-2">{totalbac12.toFixed(2)}</div>
+           <div className="col-2">{totallafise12.toFixed(2)}</div>
          </div>
          <div className="row d-flex justify-content-center  mb-3 border-bottom">
-           <div className="col"></div>
-           <div className="col">Cuota</div>
-           <div className="col">{banpro12.toFixed(2)}</div>
-           <div className="col">{ficohsa12.toFixed(2)}</div>
-           <div className="col">{bac12.toFixed(2)}</div>
-           <div className="col">{lafise12.toFixed(2)}</div>
+           <div className="col-2"></div>
+           <div className="col-2 fw-bold">Cuota</div>
+           <div className="col-2">{banpro12.toFixed(2)}</div>
+           <div className="col-2">{ficohsa12.toFixed(2)}</div>
+           <div className="col-2">{bac12.toFixed(2)}</div>
+           <div className="col-2">{lafise12.toFixed(2)}</div>
          </div>
          <div className="row d-flex justify-content-center mt-2">
-           <div className="col">18</div>
-           <div className="col">Total</div>
-           <div className="col">{totalbanpro18.toFixed(2)}</div>
-           <div className="col">{totalficohsa18.toFixed(2)}</div>
-           <div className="col">-</div>
-           <div className="col">-</div>
-         </div>
-         <div className="row d-flex justify-content-center  mb-333 border-bottom">
-           <div className="col"></div>
-           <div className="col">Cuota</div>
-           <div className="col">{banpro18.toFixed(2)}</div>
-           <div className="col">{ficohsa18.toFixed(2)}</div>
-           <div className="col">-</div>
-           <div className="col">-</div>
-         </div>
-         <div className="row d-flex justify-content-center mt-2">
-           <div className="col">24</div>
-           <div className="col">Total</div>
-           <div className="col">-</div>
-           <div className="col">{totalficohsa24.toFixed(2)}</div>
-           <div className="col">-</div>
-           <div className="col">-</div>
+           <div className="col-2 fw-bold">18</div>
+           <div className="col-2 fw-bold">Total</div>
+           <div className="col-2">{totalbanpro18.toFixed(2)}</div>
+           <div className="col-2">{totalficohsa18.toFixed(2)}</div>
+           <div className="col-2">-</div>
+           <div className="col-2">-</div>
          </div>
          <div className="row d-flex justify-content-center  mb-3 border-bottom">
-           <div className="col"></div>
-           <div className="col">Cuota</div>
-           <div className="col">-</div>
-           <div className="col">{ficohsa24.toFixed(2)}</div>
-           <div className="col">-</div>
-           <div className="col">-</div>
+           <div className="col-2"></div>
+           <div className="col-2 fw-bold">Cuota</div>
+           <div className="col-2">{banpro18.toFixed(2)}</div>
+           <div className="col-2">{ficohsa18.toFixed(2)}</div>
+           <div className="col-2">-</div>
+           <div className="col-2">-</div>
+         </div>
+         <div className="row d-flex justify-content-center mt-2">
+           <div className="col-2 fw-bold">24</div>
+           <div className="col-2 fw-bold">Total</div>
+           <div className="col-2">-</div>
+           <div className="col-2">{totalficohsa24.toFixed(2)}</div>
+           <div className="col-2">-</div>
+           <div className="col-2">-</div>
+         </div>
+         <div className="row d-flex justify-content-center  mb-3 border-bottom">
+           <div className="col-2"></div>
+           <div className="col-2 fw-bold">Cuota</div>
+           <div className="col-2">-</div>
+           <div className="col-2">{ficohsa24.toFixed(2)}</div>
+           <div className="col-2">-</div>
+           <div className="col-2">-</div>
          </div>
        </div>
      )

@@ -69,7 +69,7 @@ export default function Cuadro(resultado) {
            <div className="col">{totalbac3.toFixed(2)}</div>
            <div className="col">{totallafise3.toFixed(2)}</div>
          </div>
-         <div className="row d-flex justify-content-center  mb-2 border-bottom">
+         <div className="row d-flex justify-content-center  mb-3 border-bottom">
            <div className="col"></div>
            <div className="col">Cuota</div>
            <div className="col">{banpro3.toFixed(2)}</div>
@@ -85,7 +85,7 @@ export default function Cuadro(resultado) {
            <div className="col">{totalbac6.toFixed(2)}</div>
            <div className="col">{totallafise6.toFixed(2)}</div>
          </div>
-         <div className="row d-flex justify-content-center  mb-2 border-bottom">
+         <div className="row d-flex justify-content-center  mb-3 border-bottom">
            <div className="col"></div>
            <div className="col">Cuota</div>
            <div className="col">{banpro6.toFixed(2)}</div>
@@ -101,7 +101,7 @@ export default function Cuadro(resultado) {
            <div className="col">{totalbac9.toFixed(2)}</div>
            <div className="col">{totallafise9.toFixed(2)}</div>
          </div>
-         <div className="row d-flex justify-content-center  mb-2 border-bottom">
+         <div className="row d-flex justify-content-center  mb-3 border-bottom">
            <div className="col"></div>
            <div className="col">Cuota</div>
            <div className="col">{banpro9.toFixed(2)}</div>
@@ -117,7 +117,7 @@ export default function Cuadro(resultado) {
            <div className="col">{totalbac12.toFixed(2)}</div>
            <div className="col">{totallafise12.toFixed(2)}</div>
          </div>
-         <div className="row d-flex justify-content-center  mb-2 border-bottom">
+         <div className="row d-flex justify-content-center  mb-3 border-bottom">
            <div className="col"></div>
            <div className="col">Cuota</div>
            <div className="col">{banpro12.toFixed(2)}</div>
@@ -133,7 +133,7 @@ export default function Cuadro(resultado) {
            <div className="col">-</div>
            <div className="col">-</div>
          </div>
-         <div className="row d-flex justify-content-center  mb-2 border-bottom">
+         <div className="row d-flex justify-content-center  mb-333 border-bottom">
            <div className="col"></div>
            <div className="col">Cuota</div>
            <div className="col">{banpro18.toFixed(2)}</div>
@@ -149,7 +149,7 @@ export default function Cuadro(resultado) {
            <div className="col">-</div>
            <div className="col">-</div>
          </div>
-         <div className="row d-flex justify-content-center  mb-2 border-bottom">
+         <div className="row d-flex justify-content-center  mb-3 border-bottom">
            <div className="col"></div>
            <div className="col">Cuota</div>
            <div className="col">-</div>

@@ -20,7 +20,7 @@ export default function Calculadora(props) {
 
   if (ready) {
     return (
-      <div className="Weather row m-5">
+      <div className="Weather row m-5 d-flex justify-content-center">
         <form onSubmit={handleSubmit} className="mb-5">
           <input
             type="search"

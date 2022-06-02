@@ -21,26 +21,17 @@ export default function Calculadora(props) {
   if (ready) {
     return (
       <div className="Weather row m-5">
-
-        <form onSubmit={handleSubmit}>
+        <form onSubmit={handleSubmit} className="mb-5">
           <input
             type="search"
             id="monto"
             placeholder="Monto a recibir"
-            className="form-control"
             autoFocus="on"
             onChange={handleCityChange}
           />
-
-          {"  "}
-          <button type="submit" className="btn btn-primary">
-            Calcular
-          </button>
         </form>
-    
 
-        <Cuadro city={city}/>
-        
+        <Cuadro city={city} />
       </div>
     );
   } else {
